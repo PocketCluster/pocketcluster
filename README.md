@@ -51,7 +51,7 @@ In order for Spark/Hadoop to work in pseudo-distributed mode, you need to open S
 
 3. Once completed, open **"Terminal"** or **"iTerm"**  
 4. To start, type ```start-service.sh```  
-	- Check [Spark Console](http://localhost:8080) out if Spark comes up online.  
+	- Check out [Spark Console](http://localhost:8080) if Spark comes up online.  
 	- Same for [Hadoop Namenode](http://localhost:50070).  
 5. To stop, type ```stop-service.sh```  
 

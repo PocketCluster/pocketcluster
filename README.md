@@ -1,7 +1,6 @@
 ![icon](https://raw.githubusercontent.com/stkim1/pocketcluster/master/images/icon_256x256.png)
 
 # One-Step Spark/Hadoop Installer v1.0.0  
--
 
 A small utility to setup a laptop/desktop for single-node pseudo-distributed Spark/Hadoop cluster in one-step. This version installs **Spark 1.4.0** and **Hadoop 2.4.0**.
 

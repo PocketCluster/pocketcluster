@@ -1,9 +1,11 @@
 ![icon](https://raw.githubusercontent.com/stkim1/pocketcluster/master/images/icon_256x256.png)
 
-# One-Step Spark/Hadoop Installer  
+# One-Step Spark/Hadoop Installer v1.0.0  
 -
 
 A small utility to setup a laptop/desktop for single-node pseudo-distributed Spark/Hadoop cluster in one-step. This version installs **Spark 1.4.0** and **Hadoop 2.4.0**.
+
+### [Download installer](https://github.com/stkim1/pocketcluster/raw/master/release/PocketCluster-OSX-0.1.0.zip)
 
 ## Pre-requisites  
 
@@ -39,16 +41,22 @@ In order for Spark/Hadoop to work in pseudo-distributed mode, you need to open S
 
 ## Install  
 
-### Download installer from [here](https://github.com/stkim1/pocketcluster/raw/master/release/PocketCluster-OSX-0.1.0.zip)
-
-![](https://raw.githubusercontent.com/stkim1/pocketcluster/master/images/install-0.png)  
-![]()  
+### [Download installer](https://github.com/stkim1/pocketcluster/raw/master/release/PocketCluster-OSX-0.1.0.zip)
 
 1. Unzip & execute installer.  
-2. Select **"Install Package"** from menu & click **"Install"** button.  
+2. Select **"Install Package"** from menu.  
+![](https://raw.githubusercontent.com/stkim1/pocketcluster/master/images/install-010-0.png)  
+
+3. click **"Install"** button.  
+![](https://raw.githubusercontent.com/stkim1/pocketcluster/master/images/install-010-1.png)  
+
 3. Once completed, open **"Terminal"** or **"iTerm"**  
 4. To start, type ```start-service.sh```  
 5. To stop, type ```stop-service.sh```  
 
 
 ## F.A.Q  
+
+If you have a question, leave it to my blog post or [tweet me](https://twitter.com/stkim1).  
+
+

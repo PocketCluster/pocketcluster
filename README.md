@@ -57,6 +57,6 @@ In order for Spark/Hadoop to work in pseudo-distributed mode, you need to open S
 
 ## F.A.Q  
 
-If you have a question, leave it to my blog post or [tweet me](https://twitter.com/stkim1).  
+If you have a question, leave it to my [blog post](https://pocketcluster.wordpress.com/2015/07/15/one-step-sparkhadoop-installer-for-osx-v0-1-0/) or [tweet me](https://twitter.com/stkim1).  
 
 

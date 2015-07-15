@@ -41,6 +41,9 @@ In order for Spark/Hadoop to work in pseudo-distributed mode, you need to open S
 
 ### Download installer from [here](https://github.com/stkim1/pocketcluster/raw/master/release/PocketCluster-OSX-0.1.0.zip)
 
+![](https://raw.githubusercontent.com/stkim1/pocketcluster/master/images/install-0.png)  
+![]()  
+
 1. Unzip & execute installer.  
 2. Select **"Install Package"** from menu & click **"Install"** button.  
 3. Once completed, open **"Terminal"** or **"iTerm"**  

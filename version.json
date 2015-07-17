@@ -1,7 +1,8 @@
 {
 	"meta":"version-info",
 	"osx":{
-		"version":"0.1.0",
-		"href":"https://github.com/stkim1/pocketcluster"
+		"version":"0.1.1",
+		"href":"https://github.com/stkim1/pocketcluster",
+		"rn":"Supporting Spark 1.4.1"
 	}
 }

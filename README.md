@@ -1,10 +1,18 @@
 ![icon](https://raw.githubusercontent.com/stkim1/pocketcluster/master/images/icon_256x256.png)
 
-# One-Step Spark/Hadoop Installer v0.1.0  
+# One-Step Spark/Hadoop Installer v0.1.1  
 
-A small utility to setup a laptop/desktop for single-node pseudo-distributed Spark/Hadoop cluster in one-step. This version installs **Spark 1.4.0** and **Hadoop 2.4.0**.
+A one-step utility to setup single-node pseudo-distributed Spark/Hadoop cluster for OSX. 
 
-### [Download installer](https://github.com/stkim1/pocketcluster/raw/master/release/PocketCluster-OSX-0.1.0.zip)
+
+> ### [Download Installer](https://github.com/stkim1/pocketcluster/raw/master/release/PocketCluster-OSX-0.1.1.zip) 
+
+### Current Packages Supported  
+
+| Package  | Version | Release Note |
+|:----------|:-------------:|:------:|
+| Apache Spark | 1.4.1 | [RN 1.4.1](http://spark.apache.org/releases/spark-release-1-4-1.html) |
+| Apache Hadoop | 2.4.0 | [RN 2.4.1](http://hadoop.apache.org/docs/r2.4.1/hadoop-project-dist/hadoop-common/releasenotes.html) |
 
 ## Pre-requisites  
 

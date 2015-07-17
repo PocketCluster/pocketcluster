@@ -2,8 +2,7 @@
 
 # One-Step Spark/Hadoop Installer v0.1.1  
 
-A one-step utility to setup single-node pseudo-distributed Spark/Hadoop cluster for OSX. 
-
+A one-step utility to setup single-node pseudo-distributed Spark/Hadoop cluster on OSX. 
 
 > ### [Download Installer](https://github.com/stkim1/pocketcluster/raw/master/release/PocketCluster-OSX-0.1.1.zip) 
 

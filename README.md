@@ -23,10 +23,11 @@ This installer has only been tested on Yosemite 10.10. May work fine on El Capit
 
 ### 2. Java  
 
-You have two choices. Either one works just fine.  
+Please use Java 8. More and more Apache projects drop supporting for old Java version.  
+<s>You have two choices. Either one works just fine.</s>  
 
 - [Oracle Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)  
-- [Apple Java 6 2015-001](https://support.apple.com/kb/DL1824?locale=en_US)
+- <s>[Apple Java 6 2015-001](https://support.apple.com/kb/DL1824?locale=en_US)</s>
 
 ### 3. R (Optional)  
 

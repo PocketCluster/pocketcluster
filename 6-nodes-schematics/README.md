@@ -2,7 +2,7 @@
 
 6 nodes varient Raspberry Pi 2 cluster schematics in Illustrator CS 5.0 format and EPS format.  
 
-Each format contains four different pannels. Please cut one piece of each pannel and two pieces of [pannel-middle](). Then follow an assembly instruction posted on PocketCluster.
+Each format contains four different pannels. Please cut one piece of each pannel and two pieces of [pannel-middle](https://github.com/stkim1/pocketcluster/blob/master/6-nodes-schematics/eps/pannel-middle.eps). Then follow an assembly instruction posted on PocketCluster.
 
 If you have any question, please contact [@stkim1](https://twitter.com/stkim1).
 

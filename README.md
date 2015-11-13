@@ -62,7 +62,7 @@ Finally, Vagrant. Please use the lastest version.
 ### 1. Rasperry PI 2 Image
 Should you brave Raspberry PI 2, here's an image you are asked to use.  
  
-- [2015-11-08-ubuntu-trusty.img.zip (232 MB)](https://drive.google.com/open?id=0B2HeHl9cRYJHLUFHSHFyS29Ycnc)
+- [2015-11-13-ubuntu-trusty.img.zip (232 MB)](https://drive.google.com/open?id=0B2HeHl9cRYJHNUlQb1ZJMlJNYzA)
 
 ### 2. Image Baker  
 You can certainly use Diskutil or dd. Nonetheless, here's a great tool for baking Raspberry PI images.

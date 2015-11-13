@@ -20,7 +20,17 @@ This installer has only been tested on El Capitan. May work fine on Yosemite 10.
 
 - [El Capitan](https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1018109117&mt=12&ls=1)  
 
-## Pre-requisites  
+## System Setup  
+
+In order for Spark/Hadoop to work, you need to open SSH server just for yourself.  
+
+![](https://raw.githubusercontent.com/stkim1/pocketcluster/master/images/system-setup.png)
+
+1. Open **"System Preference"**  
+2. Open **"Sharing"**  
+3. Check **"Remote Login"** for **"Administators"** only.  
+
+# Pre-requisites
 
 ### 1. Java  
 
@@ -34,37 +44,31 @@ HomeBrew is required to install dependent library.
 
 - [Homebrew](http://brew.sh)  
 
-### 3. VirtualBox (Optional)  
+## Vagrant/VirtualBox Cluster
+### 1. VirtualBox   
 
-If you're to go with Vagrant version, please install VirtualBox first.  
+If you're to go with Vagrant version, please install VirtualBox first. If possible, please use the lastest version.  
 
-- [VirtualBox](https://www.virtualbox.org)
+- [VirtualBox 5.0.10 for OS X hosts](http://download.virtualbox.org/virtualbox/5.0.10/VirtualBox-5.0.10-104061-OSX.dmg)
 
-### 4. Vagrant (Optional)  
+### 2. Vagrant  
 
-Finally, Vagrant.
+Finally, Vagrant. Please use the lastest version.
 
-- [Vagrant](https://www.vagrantup.com)  
+- [Vagrant 1.7.4 for OSX](https://releases.hashicorp.com/vagrant/1.7.4/vagrant_1.7.4.dmg)  
 
-## Raspberry PI 2 Image  
+## Raspberry PI 2 Cluster  
 
-Should you brave Raspberry PI 2, here's an image you are asked to use.
+### 1. Rasperry PI 2 Image
+Should you brave Raspberry PI 2, here's an image you are asked to use.  
  
-- [2015-11-08-ubuntu-trusty.img.zip (232 MB)](https://drive.google.com/open?id=0B2HeHl9cRYJHSUxEUEozeGctU1E)
+- [2015-11-08-ubuntu-trusty.img.zip (232 MB)](https://drive.google.com/open?id=0B2HeHl9cRYJHLUFHSHFyS29Ycnc)
 
-## System Setup  
+### 2. Image Baker  
+You can certainly use Diskutil or dd. Nonetheless, here's a great tool for baking Raspberry PI images.
 
-In order for Spark/Hadoop to work in pseudo-distributed mode, you need to open SSH server just for yourself.  
+- [ApplePi-Baker 1.81] (http://www.tweaking4all.com/?wpfb_dl=94)
 
-![](https://raw.githubusercontent.com/stkim1/pocketcluster/master/images/system-setup.png)
-
-1. Open **"System Preference"**  
-2. Open **"Sharing"**  
-3. Check **"Remote Login"** for **"Administators"** only.  
-
-## Install  
-
-> ### [Download Installer](https://github.com/stkim1/pocketcluster/raw/master/release/PocketCluster-0.1.2.dmg) 
 
 ## F.A.Q  
 

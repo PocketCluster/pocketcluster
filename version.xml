@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title />
+        <link />
+        <description>Most recent changes with links to updates.</description>
+        <language>en</language>
+        <item>
+            <title>PocketCluster 0.1.2</title>
+            <sparkle:releaseNotesLink></sparkle:releaseNotesLink>
+            <pubDate>Mon, 16 Nov 2015 12:41:00 +0900</pubDate>
+            <enclosure url="https://github.com/stkim1/pocketcluster/raw/master/release/PocketCluster-0.1.2.dmg" sparkle:version="0.1.2" length="12996484" type="application/octet-stream" sparkle:dsaSignature="MC0CFQCWQ0ANp1v27vc25dVpzK+7EidN4AIUTCrZq1k/zZDHekcfZYKQs0blHlk" />
+        </item>
+    </channel>
+</rss>

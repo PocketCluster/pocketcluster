@@ -1,8 +1,8 @@
 ![icon](https://raw.githubusercontent.com/stkim1/pocketcluster/master/images/icon_256x256.png)
 
-# One-Step Spark/Hadoop Installer v0.1.2  
+# PocketCluster v0.1.2  
 
-A one-step utility to setup single-node pseudo-distributed Spark/Hadoop cluster on OSX. 
+A one-step utility to setup a multi-node BigData cluster on OSX. 
 
 > ### [Download Installer](https://github.com/stkim1/pocketcluster/raw/master/release/PocketCluster-0.1.2.dmg) 
 
@@ -30,26 +30,22 @@ In order for Spark/Hadoop to work, you need to open SSH server just for yourself
 2. Open **"Sharing"**  
 3. Check **"Remote Login"** for **"Administators"** only.  
 
-# Pre-requisites
+## Pre-requisites
 
-### 1. Java 1.8  
+### 1. Java  
 
-Please use Java 8. More and more Apache projects drop supporting for old Java version.  
-
-- [Oracle Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)   
+- [Oracle Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)  
 
 ### 2. Homebrew  
-
-HomeBrew is required to install dependent library.
 
 - [Homebrew](http://brew.sh)  
 
 ## For Vagrant/VirtualBox Cluster
-### 1. VirtualBox 5.0.10   
+### 3. VirtualBox  
 
 - [VirtualBox 5.0.10 for OS X hosts](http://download.virtualbox.org/virtualbox/5.0.10/VirtualBox-5.0.10-104061-OSX.dmg)
 
-### 2. Vagrant 1.7.4  
+### 4. Vagrant  
 
 - [Vagrant 1.7.4 for OSX](https://releases.hashicorp.com/vagrant/1.7.4/vagrant_1.7.4.dmg)  
 
@@ -61,10 +57,9 @@ HomeBrew is required to install dependent library.
 ### Rasperry PI 2 Ubuntu 14.04 Image
  
 - [2015-11-13-ubuntu-trusty.img.zip (232 MB)](https://drive.google.com/open?id=0B2HeHl9cRYJHNUlQb1ZJMlJNYzA)   
-- MD5 : 687a2e9b6c04f7a35449cc95405946e2  
+- Checksum: 687a2e9b6c04f7a35449cc95405946e2  
 
 ### (Optional) ApplePi OSX Image Baker  
-You can certainly use Diskutil or dd. Nonetheless, here's a great tool for baking Raspberry PI images.
 
 - [ApplePi-Baker 1.81] (http://www.tweaking4all.com/?wpfb_dl=94)
 

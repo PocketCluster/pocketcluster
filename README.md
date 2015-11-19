@@ -30,7 +30,7 @@ In order for Spark/Hadoop to work, you need to open SSH server just for yourself
 2. Open **"Sharing"**  
 3. Check **"Remote Login"** for **"Administators"** only.  
 
-## Pre-requisites
+## Common Pre-requisites
 
 ### 1. Java  
 
@@ -49,7 +49,7 @@ In order for Spark/Hadoop to work, you need to open SSH server just for yourself
 
 - [Vagrant 1.7.4 for OSX](https://releases.hashicorp.com/vagrant/1.7.4/vagrant_1.7.4.dmg)  
 
-## Raspberry PI 2 Cluster  
+## For Raspberry PI 2 Cluster  
 
 - All Raspberry PI 2 and a Mac should be behind the same router.  
 - Ethernet Connection required.  

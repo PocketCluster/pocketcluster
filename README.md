@@ -32,43 +32,42 @@ In order for Spark/Hadoop to work, you need to open SSH server just for yourself
 
 # Pre-requisites
 
-### 1. Java  
+### 1. Java 1.8  
 
 Please use Java 8. More and more Apache projects drop supporting for old Java version.  
 
 - [Oracle Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)   
 
-### 2. Homebrew
+### 2. Homebrew  
 
 HomeBrew is required to install dependent library.
 
 - [Homebrew](http://brew.sh)  
 
 ## For Vagrant/VirtualBox Cluster
-### 1. VirtualBox   
-
-If you're to go with Vagrant version, please install VirtualBox first. If possible, please use the lastest version.  
+### 1. VirtualBox 5.0.10   
 
 - [VirtualBox 5.0.10 for OS X hosts](http://download.virtualbox.org/virtualbox/5.0.10/VirtualBox-5.0.10-104061-OSX.dmg)
 
-### 2. Vagrant  
-
-Finally, Vagrant. Please use the lastest version.
+### 2. Vagrant 1.7.4  
 
 - [Vagrant 1.7.4 for OSX](https://releases.hashicorp.com/vagrant/1.7.4/vagrant_1.7.4.dmg)  
 
 ## Raspberry PI 2 Cluster  
 
-### Rasperry PI 2 Image
-Should you brave Raspberry PI 2, here's an image you are asked to use.  
+- All Raspberry PI 2 and a Mac should be behind the same router.  
+- Ethernet Connection required.  
+
+### Rasperry PI 2 Ubuntu 14.04 Image
  
 - [2015-11-13-ubuntu-trusty.img.zip (232 MB)](https://drive.google.com/open?id=0B2HeHl9cRYJHNUlQb1ZJMlJNYzA)   
 - MD5 : 687a2e9b6c04f7a35449cc95405946e2  
 
-### (Optional) Image Baker  
+### (Optional) ApplePi OSX Image Baker  
 You can certainly use Diskutil or dd. Nonetheless, here's a great tool for baking Raspberry PI images.
 
 - [ApplePi-Baker 1.81] (http://www.tweaking4all.com/?wpfb_dl=94)
+
 
 
 ## F.A.Q  

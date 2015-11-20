@@ -4,7 +4,7 @@
 
 A one-step utility to setup a multi-node BigData cluster on OSX. 
 
-> ### [Download Installer](https://github.com/stkim1/pocketcluster/raw/master/release/PocketCluster-0.1.2.dmg) 
+> ## [Download Installer](https://github.com/stkim1/pocketcluster/raw/master/release/PocketCluster-0.1.2.dmg) 
 
 ### Current Packages Supported  
 

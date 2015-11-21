@@ -68,4 +68,4 @@ In order for Spark/Hadoop to work, you need to open SSH server just for yourself
 
 ## F.A.Q  
 
-If you have a question, leave it to my [blog post](https://pocketcluster.wordpress.com/2015/07/15/one-step-sparkhadoop-installer-for-osx-v0-1-0/) or [tweet me](https://twitter.com/stkim1).  
+If you have a question, [tweet me](https://twitter.com/stkim1).  

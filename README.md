@@ -30,30 +30,36 @@ In order for Spark/Hadoop to work, you need to open SSH server just for yourself
 2. Open **"Sharing"**  
 3. Check **"Remote Login"** for **"Administators"** only.  
 
-# Pre-requisites
+# Common Pre-requisites  
 
-### 1. Java  
+### Java  
 
 - [Oracle Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)  
 
-### 2. Homebrew  
+### Homebrew  
 
 - [Homebrew](http://brew.sh)  
 
-## For Vagrant/VirtualBox Cluster
-### 3. VirtualBox  
+## For Vagrant/VirtualBox Cluster   
+
+- Install following two additional requirements
+
+### VirtualBox  
 
 - [VirtualBox 5.0.10 for OS X hosts](http://download.virtualbox.org/virtualbox/5.0.10/VirtualBox-5.0.10-104061-OSX.dmg)
 
-### 4. Vagrant  
+### Vagrant  
 
 - [Vagrant 1.7.4 for OSX](https://releases.hashicorp.com/vagrant/1.7.4/vagrant_1.7.4.dmg)  
+
+### Video Instruction    
+[![Build Hadoop Cluster on Vagrant](http://img.youtube.com/vi/daNc14JL7as/0.jpg)](https://www.youtube.com/watch?v=daNc14JL7as&vq=hd720)  
 
 ## For Raspberry PI 2 Cluster  
 
 - All Raspberry PI 2 and a Mac should be behind the same router.  
 - Ethernet Connection required.  
-- Must use the image provide below.  
+- Must use the image provided below.  
 
 ### Rasperry PI 2 Ubuntu 14.04 Image
  
@@ -64,7 +70,8 @@ In order for Spark/Hadoop to work, you need to open SSH server just for yourself
 
 - [ApplePi-Baker 1.81] (http://www.tweaking4all.com/?wpfb_dl=94)
 
-
+### Video Instruction   
+[![Build Hadoop Cluster on Raspberry PI](http://img.youtube.com/vi/0TzPHj9C0Ak/0.jpg)](https://www.youtube.com/watch?v=0TzPHj9C0Ak&vq=hd720)  
 
 ## F.A.Q  
 

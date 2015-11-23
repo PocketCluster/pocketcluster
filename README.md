@@ -73,6 +73,7 @@ In order for Spark/Hadoop to work, you need to open SSH server just for yourself
 ### Video Instruction   
 [![Build Hadoop Cluster on Raspberry PI](http://img.youtube.com/vi/0TzPHj9C0Ak/0.jpg)](https://www.youtube.com/watch?v=0TzPHj9C0Ak&vq=hd720)  
 
-## F.A.Q  
+## Updates & Questions  
 
-If you have a question, [tweet me](https://twitter.com/stkim1).  
+You can follow how and what progresses are made at [https://pocketcluster.wordpress.com](https://pocketcluster.wordpress.com).  
+If you have a question, tweet me [@stkim1](https://twitter.com/stkim1).  

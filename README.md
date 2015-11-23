@@ -60,6 +60,7 @@ In order for Spark/Hadoop to work, you need to open SSH server just for yourself
 - All Raspberry PI 2 and a Mac should be behind the same router.  
 - Ethernet Connection required.  
 - Must use the image provided below.  
+- *YOU DO NOT NEED TO CONFIGURE A SINGLE THING FOR ALL RASPBERRY PIs!!!*  
 
 ### Rasperry PI 2 Ubuntu 14.04 Image
  

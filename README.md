@@ -42,7 +42,8 @@ In order for Spark/Hadoop to work, you need to open SSH server just for yourself
 
 ## For Vagrant/VirtualBox Cluster   
 
-- Install following two additional requirements
+- Install following two additional requirements.  
+- **Mac with at least 8GB Memory and 10 GB of free disk space is strongly recommended.**  
 
 ### VirtualBox  
 
@@ -60,7 +61,7 @@ In order for Spark/Hadoop to work, you need to open SSH server just for yourself
 - All Raspberry PI 2 and a Mac should be behind the same router.  
 - Ethernet Connection required.  
 - Must use the image provided below.  
-- *YOU DO NOT NEED TO CONFIGURE A SINGLE THING FOR ALL RASPBERRY PIs!!!*  
+- **YOU DO NOT NEED TO CONFIGURE A SINGLE THING FOR ALL RASPBERRY PIs!!!**  
 
 ### Rasperry PI 2 Ubuntu 14.04 Image
  

@@ -79,3 +79,5 @@ In order for Spark/Hadoop to work, you need to open SSH server just for yourself
 
 You can follow how and what progresses are made at [https://pocketcluster.wordpress.com](https://pocketcluster.wordpress.com).  
 If you have a question, tweet me [@stkim1](https://twitter.com/stkim1).  
+
+PocketCluster is Copyright (C) 2015 Sung-Taek, Kim, All Rights Reserved.

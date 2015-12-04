@@ -1,15 +1,16 @@
 ![icon](https://raw.githubusercontent.com/stkim1/pocketcluster/master/images/icon_256x256.png)
 
-# PocketCluster v0.1.2  
+# PocketCluster v0.1.3  
 
-A one-step utility to setup a multi-node BigData cluster on OSX. 
+A one-step utility to setup a multi-nodes BigData cluster on OSX. 
 
-> ## [Download Installer](https://github.com/stkim1/pocketcluster/raw/master/release/PocketCluster-0.1.2.dmg) 
+> ## [Download Installer](https://github.com/stkim1/pocketcluster/raw/master/release/PocketCluster-0.1.3.dmg) 
 
 ### Current Packages Supported  
 
 | Package  | Version | Release Note |
 |:----------|:-------------:|:------:|
+| Apache Spark | 1.5.2 | [RN 2.4.1](https://spark.apache.org/releases/spark-release-1-5-2.html) |
 | Apache Hadoop | 2.4.0 | [RN 2.4.1](http://hadoop.apache.org/docs/r2.4.1/hadoop-project-dist/hadoop-common/releasenotes.html) |
 
 # Supported Platform

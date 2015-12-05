@@ -10,7 +10,7 @@ A one-step utility to setup a multi-nodes BigData cluster on OSX.
 
 | Package  | Version | Release Note |
 |:----------|:-------------:|:------:|
-| Apache Spark | 1.5.2 | [RN 2.4.1](https://spark.apache.org/releases/spark-release-1-5-2.html) |
+| Apache Spark | 1.5.2 | [RN 1.5.2](https://spark.apache.org/releases/spark-release-1-5-2.html) |
 | Apache Hadoop | 2.4.0 | [RN 2.4.1](http://hadoop.apache.org/docs/r2.4.1/hadoop-project-dist/hadoop-common/releasenotes.html) |
 
 # Supported Platform

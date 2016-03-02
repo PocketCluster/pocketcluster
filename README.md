@@ -80,8 +80,8 @@ In order for Spark/Hadoop to work, you need to open SSH server just for yourself
 ## Uninstall (Raspberry PI)
 
 1. Download uninstall [script](https://raw.githubusercontent.com/stkim1/pocketcluster/master/uninstall/rpi-uninstall) by right click and `Save link as...`.
-2. Run following command  
-    > chmod +x ./rpi-uninstall && ./rpi-uninstall
+2. Open command window, go to where the file is, and run following command.  
+> chmod +x ./rpi-uninstall && ./rpi-uninstall
 
 
 ## Updates & Questions  

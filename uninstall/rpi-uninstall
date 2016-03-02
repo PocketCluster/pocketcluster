@@ -1,0 +1,68 @@
+#!/usr/bin/env python
+
+import subprocess as sp
+import os
+
+
+def get_removal_target(hosts_file="hosts"):
+    with open(hosts_file, "r") as hosts:
+        return reduce(lambda l, r: l+r,
+                      map(lambda l: l.split(" ")[0:2],
+                          filter(lambda h: len(filter(lambda e: e in h, ["pc-node", "salt", "pc-master"])),
+                                 map(lambda l: str(l).strip(), hosts))))
+
+
+def clean_hosts_registry(registry_file="known_hosts", remove_target=[]):
+    with open(registry_file, "r+") as registry:
+        registry_content = map(lambda l: str(l).strip(), registry)
+        registry.seek(0)
+        map(lambda l: registry.write("%s\n" % l),
+            filter(lambda r: not r.split(" ")[0] in remove_target, registry_content))
+        registry.truncate()
+
+
+def clean_host_config(config_file="config", remove_target=[]):
+    with open(config_file, "r+") as config:
+        config_content = map(lambda l: str(l), config)
+        config_group = list()
+        cgroup = list()
+        config_group.append(cgroup)
+        for c in config_content:
+            if "host " in c.lower():
+                cgroup = list()
+                config_group.append(cgroup)
+            cgroup.append(c)
+        config.seek(0)
+        map(lambda l: config.write("%s" % l),
+            sum(filter(lambda g: not len(filter(lambda r: r in " ".join(map(lambda l: l.strip(), g)), remove_target)),
+                       config_group), []))
+        config.truncate()
+
+
+def remove_files(target_path):
+    sp.call("rm -rf " + target_path, shell=True)
+
+
+def remove_residue(real_user_home):
+    if len(real_user_home):
+        return
+    sp.call("rm " + real_user_home + "/Library/Preferences/io.pocketcluster.manager.plist", shell=True)
+    sp.call("defaults delete io.pocketcluster.manager", shell=True)
+
+
+if __name__ == '__main__':
+    user_home = os.path.expanduser(os.environ['HOME'])
+    if not len(user_home):
+        exit(0)
+
+    print "Start cleaning up PocketCluster..."
+
+    remove_list = get_removal_target("/etc/hosts")
+    clean_hosts_registry(user_home + "/.ssh/known_hosts", remove_list)
+    clean_host_config(user_home + "/.ssh/config", remove_list)
+    remove_residue(user_home)
+    remove_files("/pocket/*")
+    remove_files("/bigpkg/*")
+
+    print "Clean up completed!"
+    exit(0)

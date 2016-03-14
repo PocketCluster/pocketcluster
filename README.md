@@ -5,9 +5,9 @@
 A one-step utility to setup a multi-nodes BigData cluster on OSX. 
 
 
-## PocketCluster is temporarily unavailable.
+## PocketCluster will soon be available after fixing bugs.
 
-
+Please contact [@stkim1](https://twitter.com/stkim1) or join [the slack channel](https://pc-join.herokuapp.com/) for further detail.  
 
 
 ### Current Packages Supported  

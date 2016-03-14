@@ -7,7 +7,8 @@ A one-step utility to setup a multi-nodes BigData cluster on OSX.
 
 ## PocketCluster is temporarilly unavailable.
 
-> ## ~~[Download Installer]~~(https://github.com/stkim1/pocketcluster/raw/master/release/PocketCluster-0.1.3.dmg) 
+
+
 
 ### Current Packages Supported  
 
@@ -69,7 +70,7 @@ In order for Spark/Hadoop to work, you need to open SSH server just for yourself
 
 ### Rasperry PI 2 Ubuntu 14.04 Image
  
-- ~~[2015-11-13-ubuntu-trusty.img.zip (232 MB)]~~(https://drive.google.com/open?id=0B2HeHl9cRYJHNUlQb1ZJMlJNYzA)   
+- ~~2015-11-13-ubuntu-trusty.img.zip (232 MB)~~
 - Checksum: 687a2e9b6c04f7a35449cc95405946e2  
 
 ### (Optional) ApplePi OSX Image Baker  

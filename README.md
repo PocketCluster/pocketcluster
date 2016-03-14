@@ -5,7 +5,7 @@
 A one-step utility to setup a multi-nodes BigData cluster on OSX. 
 
 
-## PocketCluster is temporarilly unavailable.
+## PocketCluster is temporarily unavailable.
 
 
 

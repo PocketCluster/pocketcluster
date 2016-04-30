@@ -6,7 +6,7 @@ A one-step utility to setup a multi-nodes BigData cluster on OSX.
 
 > ## ~~[Download Installer](https://github.com/stkim1/pocketcluster/raw/master/release/PocketCluster-0.1.3.dmg)~~
 
-## PocketCluster will soon be available after fixing critical bugs. Please contact [@stkim1](https://twitter.com/stkim1) or join [the slack channel](https://pc-join.herokuapp.com/) for further detail.  
+## PocketCluster will soon be available after fixing few bugs. Please contact [@stkim1](https://twitter.com/stkim1) or join [the slack channel](https://pc-join.herokuapp.com/) for further detail.  
 
 
 

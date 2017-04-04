@@ -7,7 +7,7 @@
         <language>en</language>
         <item>
             <title>PocketCluster 0.1.4</title>
-            <sparkle:releaseNotesLink>https://raw.githubusercontent.com/stkim1/pocketcluster/update/release-notes/0.1.4.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>https://raw.githubusercontent.com/stkim1/pocketcluster/update/release-notes/0.1.4.md</sparkle:releaseNotesLink>
             <pubDate>Mon, 3 Apr 2017 11:33:09 -0700</pubDate>
             <enclosure
               url="https://github.com/stkim1/pocketcluster/releases/download/0.1.4-rc0/PocketCluster-0.1.4.dmg"
@@ -19,7 +19,7 @@
         </item>
         <item>
             <title>PocketCluster 0.1.3</title>
-            <sparkle:releaseNotesLink>https://raw.githubusercontent.com/stkim1/pocketcluster/update/release-notes/0.1.3.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>https://raw.githubusercontent.com/stkim1/pocketcluster/update/release-notes/0.1.3.md</sparkle:releaseNotesLink>
             <pubDate>Sat, 5 Dec 2015 01:16:00 -0700</pubDate>
             <enclosure
               url="https://github.com/stkim1/pocketcluster/raw/master/release/PocketCluster-0.1.3.dmg"
@@ -31,14 +31,14 @@
         </item>
         <item>
             <title>PocketCluster 0.1.2</title>
-            <sparkle:releaseNotesLink>https://raw.githubusercontent.com/stkim1/pocketcluster/update/release-notes/0.1.2.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>https://raw.githubusercontent.com/stkim1/pocketcluster/update/release-notes/0.1.2.md</sparkle:releaseNotesLink>
             <pubDate>Mon, 16 Nov 2015 12:41:00 -0700</pubDate>
-            <enclosure 
-              url="https://github.com/stkim1/pocketcluster/raw/master/release/PocketCluster-0.1.2.dmg" 
+            <enclosure
+              url="https://github.com/stkim1/pocketcluster/raw/master/release/PocketCluster-0.1.2.dmg"
               sparkle:shortVersionString="0.1.2"
               sparkle:version="2"
-              length="11784186" 
-              type="application/octet-stream" 
+              length="11784186"
+              type="application/octet-stream"
               sparkle:dsaSignature="MCwCFBpF4y4Vvz4BmK5Y5aylcBY8TnAmAhR03EOcJFOTtAS3y6LDSWyEkEAqBA==" />
         </item>
     </channel>

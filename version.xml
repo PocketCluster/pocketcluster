@@ -8,14 +8,14 @@
         <item>
             <title>PocketCluster 0.1.4</title>
             <sparkle:releaseNotesLink>https://raw.githubusercontent.com/stkim1/pocketcluster/update/release-notes/0.1.4.md</sparkle:releaseNotesLink>
-            <pubDate>Mon, 3 Apr 2017 11:33:09 -0700</pubDate>
+            <pubDate>Fri, 16 Mar 2018 08:00:00 -0700</pubDate>
             <enclosure
-              url="https://github.com/stkim1/pocketcluster/releases/download/0.1.4-rc0/PocketCluster-0.1.4.dmg"
+              url="https://github.com/PocketCluster/pocketcluster/releases/download/0.1.4/PocketCluster-0.1.4.dmg"
               sparkle:shortVersionString="0.1.4"
               sparkle:version="4"
-              length="6876187"
+              length="52695492"
               type="application/octet-stream"
-              sparkle:dsaSignature="MCwCFBlsJAbjuP27Iy9oZ93hBVWZmz+UAhQinn96alG6QGkJfLdWkAaRUn20WQ==" />
+              sparkle:dsaSignature="MCwCFHeT2+VzeHrBhC3aHVeb/9RvfU9qAhQq68t6y2cbwli/K52dlzU51aqfVQ==" />
         </item>
         <item>
             <title>PocketCluster 0.1.3</title>
